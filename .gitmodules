@@ -1,0 +1,3 @@
+[submodule "External/IconFamily"]
+	path = External/IconFamily
+	url = git://github.com/alexzielenski/IconFamily.git
