@@ -144,8 +144,6 @@ int main(int argc, const char * argv[])
 			[icon writeToFile:outputPath];
 			
 		} else if (export) {
-			NSLog(@"%@", stringFromCString(input));
-
 			IconFamily *icon = [IconFamily iconFamilyWithContentsOfFile:stringFromCString(input)];
 			NSString *outputFolder = stringFromCString(output);
 			
